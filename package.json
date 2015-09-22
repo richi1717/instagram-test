@@ -1,0 +1,30 @@
+{
+  "name": "bb",
+  "version": "1.0.0",
+  "description": "This project will get you familiar with CRUD and MVC. CRUD stands for Create, Retrieve, Update, and Delete. Every \"entity\" in an information system is usually subject to these four processes. This project already has a full user CRUD built in. In other words, all the code for creating, retrieving, updating, and deleting users is already done. This will allow you to learn by example -one of the best ways to learn new frameworks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^10.2.3",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.5",
+    "hbsfy": "^2.2.1",
+    "rimraf": "^2.4.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "consolidate": "^0.13.1",
+    "handlebars": "^3.0.3",
+    "jquery": "^2.1.4"
+  },
+  "browserify": {
+    "transform": [
+      "hbsfy"
+    ]
+  }
+}

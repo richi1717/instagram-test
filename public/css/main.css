@@ -1,0 +1,243 @@
+/******************************
+Default Styles
+******************************/
+
+a {
+  color: #0079BF;
+  text-decoration: none;
+}
+
+html, body {
+  color: white;
+  font-family: "Slabo 27px", Helvetica, Arial;
+  font-size: 0.9em;
+}
+
+body {
+  padding-top: 50px;
+}
+
+form, input, select, textarea {
+  color: rgba(255, 140, 255, .8);
+  font-family: "Slabo 27px", Arial;
+  font-size: 16pt;
+  font-family: "Slabo 27px";
+}
+
+form div {
+  padding: 10px;
+}
+
+input {
+  background-color: rgba(255, 255, 255, .2);
+  border: 2px solid rgba(255, 140, 255, .2);
+  width: 300px;
+}
+
+button {
+  background-color: #0079BF;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  font-family: 'Rock Salt', "Slabo 27px", Helvetica;
+  font-size: 14px;
+  margin-left: 290px;
+  padding: 5px;
+  width: 100px;
+}
+
+button:hover {
+  box-shadow: 0 0 7px -1px white;
+  cursor: pointer;
+}
+
+form > img {
+    margin-left: 190px;
+    width: 200px;
+}
+
+/******************************
+Layout Styles
+******************************/
+
+.main-nav > a {
+  color: lightgray;
+  font-family: 'Rock Salt', Helvetica, Arial;
+  font-size: 30pt;
+  padding: 5px;
+}
+
+.main-nav > a:hover {
+  color: white;
+  text-shadow: 1px 1px #ff8c00 ;
+}
+
+.panel > div {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.main-container {
+  font-family: 'Rock Salt', Helvetica, Arial;
+  margin-top: 125px;
+}
+
+.main-container > div {
+  text-align: center; 
+}
+
+.main-container h1 {
+  font-size: 65pt;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.main-container h2 {
+  color: #B93F50;
+  font-size: 20pt;
+  margin: -35px 0 0 0;
+  text-shadow: 1px 1px #fff;
+}
+
+/******************************
+Form Layout Styles
+******************************/
+
+.input-label {
+  display: block;
+  float: left;
+  padding-left: 0;
+  text-align: left;
+  width: 75px;
+}
+
+.input-group {
+  padding: 0;
+}
+
+.dropdown {
+  background-color: rgba(255, 255, 255, .2);
+  border: 2px solid rgba(255, 140, 255, .2);
+  color: rgba(255, 140, 255, .8);
+  font-size: 16pt;
+  width: 300px;
+}
+
+/******************************
+User and Product List Styles
+******************************/
+
+.hexagon {
+  float: left; 
+  height: 200px; 
+  margin: 0 -138px -98px -85px; 
+  overflow: hidden; 
+  transform: rotate(120deg); 
+  visibility: hidden; 
+  width: 400px; 
+}
+
+.outer {
+  height: 100%;
+  overflow: hidden;
+  transform: rotate(-60deg);
+  width: 100%;
+}
+
+.inner {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  transform: rotate(-60deg);
+  visibility: visible;
+  width: 100%;
+}
+
+.inner:hover .textWrapper {
+  opacity: 1;
+}
+
+.textWrapper {
+  background: #000;
+  height: 200px;
+  left: 80px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: all 0.2s;
+  width: 235px;
+  z-index: 500;
+}
+
+.text-inner {
+  font-size: 16pt;
+  height: 135px;
+  left: 52px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 130px;
+  z-index: 500;
+}
+
+.text-sub {
+  font-size: 12pt;
+}
+
+.text-outer {
+  font-family: "Slabo 27px", Helvetica, Arial;
+  font-size: 35px;
+  height: 135px;
+  left: 135px;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 2px 2px #ff8c00;
+  top: 10px;
+  width: 130px;
+  z-index: 500;
+}
+
+.even {
+  margin-top: 102px;
+}
+
+.row {
+  clear: left;
+}
+
+.user-name {
+  background: #0079BF;
+  background-size: contain; 
+}
+
+.product-name {
+  background: #0079BF;
+  background-size: contain;
+}
+
+.prod-img {
+  margin-left: 80px;
+  width: 235px;
+}
+
+/******************************
+Helper Components
+******************************/
+
+.home {
+  /*background: url("../images/darth-hoth.png") no-repeat;*/
+  background-size: cover;
+}
+
+.users {
+  background-color: #2F186D;
+}
+
+.products {
+  background-color: #2F186D;
+}
+
+.warning {
+  color: orange;
+}

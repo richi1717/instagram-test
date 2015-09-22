@@ -1,0 +1,25 @@
+h2.secret {
+  color: rgba(255, 255, 255, 0.22);
+  position: absolute;
+  font-size: 30pt;
+}
+
+.secret1 {
+  margin-top: -380px;
+}
+
+.secret2 {
+  margin-top: -320px;
+}
+
+.secret3 {
+  margin-top: -260px;
+}
+
+.secret4 {
+  margin-top: -200px;
+}
+
+.secret5 {
+  margin-top: -140px;
+}
